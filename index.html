@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <title>Jogo da memória - Movies</title>
+</head>
+
+<body>
+    <header id="dificuldade">Dificuldade: <button class="dificuldade" onclick="difNormal()" id="normal">Normal</button> <button class="dificuldade" onclick="difHard()" id="hard">Hard</button></header>
+    <div id="gameBoard">
+
+    </div>
+    <div id="gameOver">
+        <div>
+            Parabéns, você finalizou o jogo!
+        </div>
+        <button id="restart" onclick="restart()">Recomeçar</button>
+
+    </div>
+    <div id="referencia">
+    <a href="https://icons8.com">Icons by Icons8</a> / Dev. by Breno Maini
+    </div>
+    <script src="script/game.js"></script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
